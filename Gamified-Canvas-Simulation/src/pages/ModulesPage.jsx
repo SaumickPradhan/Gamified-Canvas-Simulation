@@ -166,7 +166,7 @@ const ModulesPage = () => {
               onClick={() => handleWeekChange(week.weekNumber)}
               className={openWeeks.includes(week.weekNumber) ? "active arrow-up" : "arrow-down"}
             >
-              Week {week.weekNumber}
+              Level {week.weekNumber}
             </summary>
             <div className="content-list">
               {week.content.map((item, index) => (
