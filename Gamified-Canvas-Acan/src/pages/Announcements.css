@@ -1,0 +1,17 @@
+.announcements-container {
+    background-color: white; /* Light background color */
+    padding: 20px; /* Add padding to the container */
+    width: auto;
+    /* margin-top: 100px; */
+  }
+  
+  .announcement-card {
+    background-image: radial-gradient(circle at 80%, #755fb2, #ee4b2b);
+    border: 1px solid #ddd; /* Add a border for separation */
+    padding: 10px; /* Add padding to each announcement card */
+    margin-bottom: 10px; /* Add margin between announcement cards */
+  }
+  
+  .announcement-card h3 , .announcement-card  p {
+    color: white;
+  }

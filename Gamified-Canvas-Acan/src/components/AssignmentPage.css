@@ -1,0 +1,108 @@
+/* AssignmentPage.css */
+.assignment-page {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .assignment-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .dropdown-container {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .policies-container {
+    margin-bottom: 20px;
+  }
+  
+  .policies-container p {
+    margin-bottom: 10px; /* Add this margin */
+  }
+  
+  button {
+    cursor: pointer;
+    background-image: radial-gradient(circle at 80%, #755fb2, #ee4b2b);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .submission-container {
+    margin-bottom: 20px;
+  }
+  
+  .acan-points-container {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .submission-choice-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .submission-choice-container button {
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition-duration: 0.3s;
+  }
+  
+  .submission-choice-container button.selected {
+    background-color: #4caf50;
+    color: white;
+  }
+
+  .text-entry-container,
+.file-upload-container {
+  margin-bottom: 20px;
+}
+
+textarea,
+input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}

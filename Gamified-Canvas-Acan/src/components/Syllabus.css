@@ -1,0 +1,182 @@
+/* General Styling */
+.gamified-syllabus {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-image: radial-gradient(circle at 80%, #755fb2, #ee4b2b);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  /* Course Information */
+  .course-info {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .course-info p {
+    margin: 8px 0;
+  }
+  
+  /* Course Description */
+  .course-description {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Achievements */
+  .achievements {
+    background-color: #e6f7ff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Learning Outcomes */
+  .learning-outcomes {
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Quest Board */
+  .quest-board {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+tr{
+    background-image: (circle, #755fb2, #ee4b2b);
+
+}
+
+  th, td {
+    border: 1px solid, #000;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-image: radial-gradient(circle at 80%, #755fb2, #ee4b2b);
+    color: #fff;
+  }
+  
+  /* Achievement Unlocked */
+  .achievement-unlocked {
+    background-color: #e6f7ff;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Pie Chart */
+  .pie-chart {
+    width: 100px;
+    height: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    margin: 20px auto;
+  }
+  
+  .progress-pie-chart {
+    width: 50%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    background-color: #4caf50;
+  }
+  
+  ul li {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Rewards Marketplace */
+  .rewards-marketplace {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .rewards-marketplace p {
+    margin: 8px 0;
+  }
+  
+  .rewards-marketplace ul {
+    padding: 0;
+  }
+  
+  .rewards-marketplace li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-image: radial-gradient(circle at 80%, #755fb2, #ee4b2b);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+  }
+  
+  footer p {
+    font-size: 1.2em;
+    margin: 0;
+  }
+  
+  /* Footer Animation */
+  footer::after {
+    content: '🚀';
+    font-size: 2em;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  /* Pie Chart */
+.progress-pie-chart {
+    width: 20px;
+    height: 20px;
+    background-color: #e6f7ff;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 10px;
+    background-image: conic-gradient(
+      #4caf50 var(--percentage),
+      transparent var(--percentage),
+      transparent 100%
+    );
+  }

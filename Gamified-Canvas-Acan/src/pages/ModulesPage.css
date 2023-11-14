@@ -1,0 +1,111 @@
+.modules-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.modules-heading {
+  margin-bottom: 20px;
+}
+
+.week-dropdowns {
+  display: flex;
+  flex-direction: column;
+}
+
+details {
+  margin-bottom: 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+summary {
+  background-image: radial-gradient(circle at 80%, #755fb2, #ee4b2b);
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none; /* Remove the default list-style (little arrow) */
+  position: relative;
+}
+
+.arrow-down::before,
+.arrow-up::before {
+  content: '⌄'; /* Default arrow */
+  padding-right: 5px; /* Adjust the right padding for spacing */
+}
+
+.arrow-up::before {
+  content: '›'; /* Arrow when details are open */
+}
+
+details[open] summary::before {
+  transform: rotate(90deg); /* Rotate the arrow when the details are open */
+}
+
+.content-list {
+  padding: 10px;
+}
+
+.content-item {
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 8px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  transition: background-color 0.3s ease;
+}
+
+.content-item:hover {
+  background-color: #f8f9fa;
+}
+
+.content-item.presentation {
+  background-color: #dff0d8; /* Green for presentations */
+}
+
+.content-item.content {
+  background-color: #d9edf7; /* Blue for content pages */
+}
+
+.content-item.assignment {
+  background-color: #f2dede; /* Red for assignments */
+}
+
+
+.content-title{
+display: left;
+
+}
+.content-item.project {
+  background-color: #f6d9f6; /* Pink for assignments */
+}
+
+/* Additional CSS for checkboxes and file links */
+.content-item label {
+  display: left;
+  align-items: center;
+}
+
+.content-item input {
+  margin-right: 10px;
+}
+
+.file-links {
+  margin-left: auto;
+}
+
+.file-links a {
+  margin-left: 5px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.file-links a:hover {
+  text-decoration: underline;
+}

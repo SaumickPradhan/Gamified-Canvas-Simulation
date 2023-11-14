@@ -1,0 +1,54 @@
+.reward-center {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .total-points {
+    margin-bottom: 20px;
+  }
+  
+  .transaction-list {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .transaction-list h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for credit transactions */
+  .transaction-list tr.credit {
+    color: #008000; /* Green for positive points */
+  }
+  
+  /* Style for debit transactions */
+  .transaction-list tr.debit {
+    color: #ff0000; /* Red for negative points */
+  }
+  
+  /* Heading background gradient */
+  .reward-center h1 {
+    background-image: radial-gradient(circle at 80%, #755fb2, #ee4b2b);
+    color: #fff; /* Set text color to white for better visibility */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }

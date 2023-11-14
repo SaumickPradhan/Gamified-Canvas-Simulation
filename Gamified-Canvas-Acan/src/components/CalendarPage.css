@@ -1,0 +1,66 @@
+.calendar-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .calendar-heading {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .calendar {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+  }
+  
+  .weekdays {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    font-weight: bold;
+  }
+  
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .day {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .day-number {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .empty-cell {
+    visibility: hidden;
+  }
+  
+  .quest-button {
+    padding: 5px;
+    margin-top: 5px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .completed {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .progress-bar {
+    margin-top: 20px;
+  }
+  
+  .progress {
+    height: 20px;
+    background-color: #4caf50;
+  }
+  

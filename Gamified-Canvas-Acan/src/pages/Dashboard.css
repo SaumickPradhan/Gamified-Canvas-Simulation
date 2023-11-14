@@ -1,0 +1,84 @@
+.dashboard-container {
+    display: flex;
+}
+
+.points-component {
+    flex: 1;
+    padding: 20px; /* Added padding for better spacing */
+}
+
+.courses-component {
+    flex: 2;
+}
+
+.points-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px; /* Adjust the width as needed */
+}
+
+.points-button {
+    background-image: radial-gradient(circle at 80%, #755fb2, #ee4b2b);
+    color: #fff;
+    padding: 8px 12px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.points-button:hover {
+    background-color: #45a049;
+}
+
+.course-box {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 10px;
+}
+
+.course-button {
+    background-image: radial-gradient(circle at 80%, #755fb2, #ee4b2b);
+    color: #fff;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width:380px;
+}
+
+.course-button:hover {
+    background-color: #45a049;
+}
+
+.progress-container {
+    display: flex;
+    align-items: center;
+}
+
+.progress-bar {
+    width: 300px; /* Adjust the width as needed */
+    color: white;
+    height: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-end; /* Align the progress bar to the right */
+    margin-left: 10px; /* Added margin for better spacing */
+    border: 1px solid #080000;
+}
+
+.progress-number {
+    margin-right: 10px; 
+    font-weight: bold;
+ 
+}
+
+.progress {
+    height: 200%;
+    background-image: radial-gradient(circle at 80%, #755fb2, #ee4b2b);
+    
+}

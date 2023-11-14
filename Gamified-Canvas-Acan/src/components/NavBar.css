@@ -1,0 +1,26 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    right:0;
+    height:160px;
+  }
+  
+  body {
+    width: 100%;
+  
+  }
+
+
+  
+  .brand-header {
+      font-size: 70px;
+      font-weight: 600;
+      background-image: radial-gradient(circle, #553c9a, #ee4b2b);
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+  
+    }
+  
+    /* linear-gradient(to left, #553c9a, #b393d3); */
+  

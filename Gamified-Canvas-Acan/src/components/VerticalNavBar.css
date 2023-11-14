@@ -1,0 +1,18 @@
+.nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000; /* Set your desired text color */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Set your desired hover color */
+}
