@@ -1,12 +1,12 @@
 // NavBar.js
 import { Container, Nav, Navbar } from "react-bootstrap";
-import './Navbar.css';
+import './NavBar.css';
 import canvas from '../assets/Canvas-Logo-only.png';
 import dashboard from '../assets/dashboard.png';
 import announcements from "../assets/announcements.png";
 import todolist from '../assets/todolist.png';
 import { useState } from "react";
-import calender from '../assets/calender.jsx.png';
+import calender from '../assets/Calender.jsx.png';
 const NavBar = () => {
 
   const [userInput, setUserInput] = useState(""); // Global variable to store user input
